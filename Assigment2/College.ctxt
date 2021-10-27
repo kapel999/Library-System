@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ College\ class\ represents\ college\ that\ has\ library\ that\ students\ attend.\r\n\r\n\ @author\ 184510\r\n\ @version\ 1.0,\ 07/12/2018\r\n
+comment1.params=numberOfStudents\ textBooksInTheLibrary
+comment1.target=College(int,\ int)
+comment1.text=\r\n\ Construstcs\ the\ college\ with\ a\ library\ and\ collection\ of\ students\r\n\ \r\n\ @param\ numberOfStudents\ maximum\ number\ of\ students\ attending\ the\ college\r\n\ @param\ textBookInTheLibrary\ maximum\ number\ of\ books\ in\ the\ library\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Creates\ college\ that\ is\ parametrised\ by\ args\ or\ uses\ the\ default\ values\r\n\ \r\n\ @param\ args\ array\ that\ can\ contain\ up\ to\ 3\ numbers,\ representing\ students,\ books\ and\ times\ to\ run\ the\ simulation\r\n
+comment3.params=
+comment3.target=void\ describe()
+comment3.text=\r\n\ Generates\ and\ prints\ the\ description\ of\ the\ college\r\n
+comment4.params=
+comment4.target=void\ nextStep()
+comment4.text=\r\n\ Informs\ user\ that\ no\ students\ are\ left.\r\n\ Otherwise\ pick\ random\ student,\ check\ if\ he\ finished\ studying,\ remove\ him\ or\ make\ him\ study\r\n
+comment5.params=nSteps
+comment5.target=void\ runCollege(int)
+comment5.text=\r\n\ runs\ simulation\ of\ college\ n\ times\r\n\ \r\n\ @param\ nSteps\ how\ many\ times\ it\ should\ run\r\n
+numComments=6

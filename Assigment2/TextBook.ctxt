@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TextBook
+comment0.text=\r\n\ Class\ TextBook\ represents\ a\ book\ to\ be\ read\ by\ a\ Student.\r\n\r\n\ @author\ 184510\r\n\ @version\ 1.0,\ 07/12/2018\r\n
+comment1.params=title\ length
+comment1.target=TextBook(java.lang.String,\ int)
+comment1.text=\r\n\ Constructs\ a\ book\ with\ given\ title\ and\ length,\ that\ hasn't\ been\ read.\r\n\ \r\n\ @param\ title\ for\ the\ book\r\n\ @param\ length\ of\ the\ book\ in\ chapters\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment2.text=\r\n\ @return\ the\ book\ title\r\n
+comment3.params=
+comment3.target=void\ readNextChapter()
+comment3.text=\r\n\ Attempts\ to\ read\ the\ book's\ chapter,\ if\ any\ left\r\n
+comment4.params=
+comment4.target=boolean\ isFinished()
+comment4.text=\r\n\ Checks\ if\ the\ book\ has\ been\ read\ fully\r\n\ \r\n\ @return\ true\ if\ book\ finished\r\n
+comment5.params=
+comment5.target=void\ closeBook()
+comment5.text=\r\n\ Reset\ book\ to\ initial\ state\r\n
+comment6.params=
+comment6.target=void\ describe()
+comment6.text=\r\n\ Generates\ and\ prints\ description\ for\ the\ book\r\n
+numComments=7

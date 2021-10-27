@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Library
+comment0.text=\r\n\ Class\ Library\ represents\ a\ College\ library\ from\ which\ books\ can\ be\ borrowed\r\n\r\n\ @author\ 184510\r\n\ @version\ 1.0,\ 07/12/2018\r\n
+comment1.params=maxNumTextBook
+comment1.target=Library(int)
+comment1.text=\r\n\ Constructs\ library\ with\ a\ book\ shelf\ array\r\n\ \r\n\ @param\ maxNumTextBook\ number\ of\ books\ that\ can\ be\ stored\ \r\n
+comment2.params=
+comment2.target=LibraryCard\ issueCard()
+comment2.text=\r\n\ Issues\ a\ library\ card,\ keeping\ track\ of\ how\ many\ there\ are\r\n\ \r\n\ @return\ new\ library\ card\ with\ an\ allowment\ of\ 5\ books\r\n
+comment3.params=card
+comment3.target=TextBook\ borrowBook(LibraryCard)
+comment3.text=\r\n\ Get\ a\ book\ off\ the\ book\ shelf\ if\ the\ card\ is\ not\ expired\ and\ there\ is\ any\ more\ to\ be\ borrowed.\r\n\ Records\ the\ transaction\ on\ the\ library\ card\ if\ succesful\r\n\ \r\n\ @param\ card\ that\ will\ track\ the\ borrowed\ book\r\n\ \r\n\ @return\ a\ new\ book\ or\ null\ if\ conditions\ are\ not\ met\r\n
+comment4.params=book
+comment4.target=void\ returnBook(TextBook)
+comment4.text=\r\n\ Puts\ the\ book\ back\ on\ the\ book\ shelf\r\n\ \r\n\ @param\ book\ to\ return\ on\ the\ shelf\r\n
+comment5.params=
+comment5.target=void\ describe()
+comment5.text=\r\n\ Generates\ and\ prints\ the\ description\ of\ the\ Library\r\n
+numComments=6

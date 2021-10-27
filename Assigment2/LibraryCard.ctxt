@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LibraryCard
+comment0.text=\r\n\ Class\ LibraryCard\ represents\ a\ library\ card\ that\ Student\ will\ use\ to\ get\ TextBook.\r\n\r\n\ @author\ 184510\r\n\ @version\ 1.0,\ 07/12/2018\r\n
+comment1.params=limit\ setReference
+comment1.target=LibraryCard(int,\ int)
+comment1.text=\r\n\ Constructs\ library\ card\ with\ unique\ id,\ given\ borrowing\ limit,\ and\ full\ allowance\r\n\ \r\n\ @para\ limit\ of\ the\ books\ that\ can\ be\ borrowed\r\n\ @para\ setReference\ unique\ number\ for\ cardID\r\n
+comment2.params=
+comment2.target=void\ swipe()
+comment2.text=\r\n\ Increases\ the\ borrowed\ book\ count\ by\ one\r\n
+comment3.params=
+comment3.target=boolean\ expired()
+comment3.text=\r\n\ @return\ true\ if\ library\ card\ is\ expired\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCardRef()
+comment4.text=\r\n\ @return\ the\ reference\ of\ the\ card\r\n
+comment5.params=
+comment5.target=void\ describe()
+comment5.text=\r\n\ Generates\ and\ prints\ the\ description\ of\ library\ card\r\n
+numComments=6

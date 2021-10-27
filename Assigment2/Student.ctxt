@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Student\ class\ represents\ student\ that\ is\ part\ of\ college\ and\ borrows\ books\ from\ the\ college\ library.\r\n\r\n\ @author\ 184510\r\n\ @version\ 07/12/2018\r\n
+comment1.params=name\ library
+comment1.target=Student(java.lang.String,\ Library)
+comment1.text=\r\n\ Constructs\ student\ by\ giving\ him\ name,\ issueing\ him\ library\ card\ and\ full\ allowance\r\n\ \r\n\ @param\ name\ of\ the\ student\r\n\ @param\ library\ in\ the\ college\r\n
+comment2.params=
+comment2.target=boolean\ finishedStudies()
+comment2.text=\r\n\ Checks\ if\ the\ student\ finished\ studies\r\n\ \r\n\ @return\ positive\ if\ conditions\ have\ been\ met\ which\ means\ that\ student\ finnished\ studies\r\n
+comment3.params=
+comment3.target=void\ study()
+comment3.text=\r\n\ Borrow\ book\ if\ none\ is\ held\ by\ student,\ \r\n\ otherwise\ read\ next\ chapter\ if\ book\ not\ finished\ \r\n\ or\ return\ book\ to\ library.\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\r\n\ Describes\ the\ student,\ his\ library\ card\ and\ his\ book\ depending\ on\ which\ ones\ he\ has\r\n
+numComments=5
